@@ -51,7 +51,7 @@ Projekt łączy **tryb terminalowy** z **interaktywnym dashboardem webowym** opa
 
 ### 1. Klonowanie repozytorium
 ```bash
-git clone https://github.com/twojnick/LogSentinel.git
+git clone https://github.com/4LPHA03/LogSentinel/
 cd LogSentinel
 Dla web: python -m streamlit run dashboard_main.py
 Dla terminala: python analyzer_off.py
@@ -84,4 +84,4 @@ Pozwala on szybko stworzyć realistyczny zestaw danych (np. 1000000 wpisów) do 
 
 **Uruchomienie generatora:**
 ```bash
-python db_generator.py
+python generator_db10rec.py
