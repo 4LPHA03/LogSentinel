@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ## 🗄 Generator bazy danych testowych
 
 Projekt zawiera również **generator bazy SQLite z przykładowymi logami aktywności użytkowników**.  
-Pozwala on szybko stworzyć realistyczny zestaw danych (np. 10 000 wpisów) do testów i prezentacji.
+Pozwala on szybko stworzyć realistyczny zestaw danych (np. 1000000 wpisów) do testów i prezentacji.
 
 **Funkcje generatora:**
 - Tworzy tabelę `logs` z polami:
@@ -76,7 +76,7 @@ Pozwala on szybko stworzyć realistyczny zestaw danych (np. 10 000 wpisów) do t
   - `ip_address` – adres IP
   - `device` – urządzenie, z którego korzystał użytkownik
 - Generuje dane losowe, ale realistyczne:
-  - 500 różnych użytkowników
+  - 999 różnych użytkowników
   - Kilka popularnych akcji
   - Różne systemy i urządzenia
   - Adresy IP publiczne i prywatne
